@@ -10,7 +10,7 @@ namespace IceCreamShop
 
         public override string ToString()
         {
-            return Name + " " + Allergens.Count + " allergens";
+            return Name + ": $" + Cost;
         }
     }
 }
